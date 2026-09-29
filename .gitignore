@@ -1,1 +1,64 @@
-/.venv/
+# Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+
+# Test and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDEs and editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Logs
+
+*.log
+logs/
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Local project files
+
+*.local
